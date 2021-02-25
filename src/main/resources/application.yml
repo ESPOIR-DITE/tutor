@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: "jdbc:postgresql://ec2-54-87-34-201.compute-1.amazonaws.com:5432/deugrh3bq1s0an"
+    username: ykgowbqdilvjkz
+    password: b1943ec8f75cfee2ea9709ce68b1885d883f6abafb893bcef48f34fe5c02183f
+    dbcp2:
+      remove-abandoned-on-borrow: true
+      remove-abandoned-timeout: 60
