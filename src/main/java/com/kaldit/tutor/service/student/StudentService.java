@@ -1,6 +1,6 @@
 package com.kaldit.tutor.service.student;
 
-import com.kaldit.tutor.domain.Student;
+import com.kaldit.tutor.domain.student.Student;
 import com.kaldit.tutor.service.Service;
 
 import java.util.Optional;

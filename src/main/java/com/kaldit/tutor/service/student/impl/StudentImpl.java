@@ -1,6 +1,6 @@
 package com.kaldit.tutor.service.student.impl;
 
-import com.kaldit.tutor.domain.Student;
+import com.kaldit.tutor.domain.student.Student;
 import com.kaldit.tutor.repository.StudentRepository;
 import com.kaldit.tutor.service.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,7 @@ public class StudentImpl implements StudentService {
     }
 
     @Override
-    public List<Student> realdAll() {
+    public List<Student> readAll() {
         return studentRepository.findAll();
     }
 

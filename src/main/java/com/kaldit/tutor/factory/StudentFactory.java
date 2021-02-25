@@ -1,6 +1,6 @@
 package com.kaldit.tutor.factory;
 
-import com.kaldit.tutor.domain.Student;
+import com.kaldit.tutor.domain.student.Student;
 import com.kaldit.tutor.utile.Generic;
 
 import java.util.Optional;

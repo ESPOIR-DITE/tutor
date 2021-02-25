@@ -1,4 +1,4 @@
-package com.kaldit.tutor.domain;
+package com.kaldit.tutor.domain.level;
 
 import lombok.*;
 
@@ -7,11 +7,12 @@ import javax.persistence.Id;
 
 @Entity
 @Builder(toBuilder = true)
+@Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
-public class Student {
-    @Id @NonNull private String email;
-    @NonNull private String name;
-    private String nickName;
-    @NonNull private String phoneNumber;
+public class Level {
+    @Id
+    private String id;
+    private String name;
+    private String description;
 }
