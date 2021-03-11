@@ -1,7 +1,7 @@
 package com.kaldit.tutor.controller.student;
 
 import com.kaldit.tutor.controller.Controller;
-import com.kaldit.tutor.domain.StudentLevel;
+import com.kaldit.tutor.domain.student.StudentLevel;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.kaldit.tutor.factory;
+package com.kaldit.tutor.factory.student;
 
 import com.kaldit.tutor.domain.student.Student;
 import com.kaldit.tutor.utile.Generic;

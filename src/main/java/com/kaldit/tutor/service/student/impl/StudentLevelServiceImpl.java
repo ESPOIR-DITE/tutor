@@ -1,6 +1,6 @@
 package com.kaldit.tutor.service.student.impl;
 
-import com.kaldit.tutor.domain.StudentLevel;
+import com.kaldit.tutor.domain.student.StudentLevel;
 import com.kaldit.tutor.repository.student.StudentLevelRepository;
 import com.kaldit.tutor.service.student.StudentLevelService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.kaldit.tutor.repository;
+package com.kaldit.tutor.repository.student;
 
 import com.kaldit.tutor.domain.student.Student;
 import org.springframework.data.jpa.repository.JpaRepository;

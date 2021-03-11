@@ -1,9 +1,8 @@
 package com.kaldit.tutor.controller.student.impl;
 
 import com.kaldit.tutor.controller.student.StudentLevelController;
-import com.kaldit.tutor.domain.StudentLevel;
+import com.kaldit.tutor.domain.student.StudentLevel;
 import com.kaldit.tutor.service.student.StudentLevelService;
-import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

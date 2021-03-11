@@ -1,7 +1,7 @@
 package com.kaldit.tutor.service.student.impl;
 
 import com.kaldit.tutor.domain.student.Student;
-import com.kaldit.tutor.repository.StudentRepository;
+import com.kaldit.tutor.repository.student.StudentRepository;
 import com.kaldit.tutor.service.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.kaldit.tutor.factory.student;
 
-import com.kaldit.tutor.domain.StudentLevel;
+import com.kaldit.tutor.domain.student.StudentLevel;
 
 public class StudentLevelFactory {
     public static StudentLevel build(String levelId,String studentEmail){

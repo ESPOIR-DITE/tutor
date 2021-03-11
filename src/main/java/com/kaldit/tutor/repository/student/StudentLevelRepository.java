@@ -1,6 +1,6 @@
 package com.kaldit.tutor.repository.student;
 
-import com.kaldit.tutor.domain.StudentLevel;
+import com.kaldit.tutor.domain.student.StudentLevel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.kaldit.tutor.domain;
+package com.kaldit.tutor.domain.student;
 
 import lombok.*;
 
@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @ToString @Builder @Entity @Getter
@@ -14,9 +15,12 @@ import java.util.Objects;
 @IdClass(StudentLevel.StudentLevelId.class)
 public class StudentLevel {
     @NonNull @Id private String studentEmail, levelId;
+    private String description;
+    private LocalDate date;
 
     protected static class StudentLevelId implements Serializable{
         private String studentEmail, levelId;
+
 
         @Override
         public boolean equals(Object o) {
